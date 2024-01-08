@@ -15,6 +15,7 @@ import {createEffect,Suspense} from 'solid-js';
 const queryClient=new QueryClient();
 
 const EmbeddedApp=() => {
+  fr
   // const i18n=useI18n();
 
   // createEffect(() => {
@@ -44,12 +45,12 @@ export default function Root() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <QueryClientProvider client={queryClient}> */}
 
-        {/* <RosettyProvider languages={{fr: {dict: {test: 'toto'}},en: {dict: {test: 'EN'}}}} defaultLanguage={"fr"}> */}
+        <RosettyProvider languages={{fr: {dict: {test: 'toto'},locale: fr},en: {dict: {test: 'EN'},locale: fr}}} defaultLanguage={"fr"}>
             Under rosetty
             <Suspense>
               <EmbeddedApp />
             </Suspense>
-          {/* </RosettyProvider> */}
+          </RosettyProvider>
         {/* </QueryClientProvider> */}
       </MetaProvider>
     </>

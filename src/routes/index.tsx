@@ -1,6 +1,6 @@
 import {createEffect} from "solid-js";
 // import {useRosetty} from "../test";
-// import {useRosetty} from "rosetty-solid";
+import {useRosetty} from "rosetty-solid";
 
 import bg from '../../public/test.jpeg';
 
@@ -17,11 +17,11 @@ import 'vidstack/player/ui';
 
 
 export default function Home() {
-  // const i18n=useRosetty();
+  const i18n=useRosetty();
 
-  // createEffect(() => {
-  //   console.log(i18n);
-  // })
+  createEffect(() => {
+    console.log(i18n);
+  })
 
   return (
     <main class="text-center mx-auto text-gray-700 p-4">
