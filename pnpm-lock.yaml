@@ -33,8 +33,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0
   rosetty-solid:
-    specifier: 1.0.81
-    version: 1.0.81(dayjs@1.11.10)(rosetty@2.1.0)(solid-js@1.8.11)
+    specifier: 1.0.82
+    version: 1.0.82
   solid-js:
     specifier: ^1.8.11
     version: 1.8.11
@@ -5946,13 +5946,9 @@ packages:
       templite: 1.2.0
     dev: false
 
-  /rosetty-solid@1.0.81(dayjs@1.11.10)(rosetty@2.1.0)(solid-js@1.8.11):
-    resolution: {integrity: sha512-YW7m5r0vAiYQgcimrbfuTf0XvKtPzUCW9oV92sV/Y0oogNteKotcYtclqZ/lIuw06jMC0pjraLx47V1grGrHKA==}
+  /rosetty-solid@1.0.82:
+    resolution: {integrity: sha512-q2Boge+RYoTycC2XIDiQerxcngVuDzHiYOwMREH+09IPpuXLZ0qVuIhuspWc2BuW2P/vTtC++103CLqU8MM8nQ==}
     engines: {node: '>=10'}
-    peerDependencies:
-      dayjs: ^1.11.10
-      rosetty: 2.1.0
-      solid-js: ^1.8
     dependencies:
       dayjs: 1.11.10
       rosetty: 2.1.0

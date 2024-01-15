@@ -16,7 +16,7 @@
     "media-icons": "^0.10.0",
     "postcss": "^8.4.26",
     "rosetty": "^2.1.0",
-    "rosetty-solid": "1.0.81",
+    "rosetty-solid": "1.0.82",
     "solid-js": "^1.8.11",
     "solid-start-cmp": "github:qlaffont/solid-start-cmp",
     "tailwindcss": "^3.3.3",
