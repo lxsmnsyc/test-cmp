@@ -5,9 +5,6 @@ import devtools from "solid-devtools/vite";
 import imagemin from "unplugin-imagemin/vite";
 
 const app=defineConfig({
-  start: {
-    ssr: false,
-  },
   optimizeDeps: {
     include: ["rosetty", "dayjs"],
   },
