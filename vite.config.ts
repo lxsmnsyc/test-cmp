@@ -9,7 +9,7 @@ const app=defineConfig({
     ssr: false,
   },
   optimizeDeps: {
-    include: ["rosetty-solid","rosetty", "dayjs"],
+    include: ["rosetty", "dayjs"],
   },
   plugins: [
     legacy({
