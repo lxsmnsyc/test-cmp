@@ -17,10 +17,14 @@ import 'vidstack/player/ui';
 
 
 export default function Home() {
-  const i18n=useRosetty();
+  const i18n = useRosetty<{test: string}>();
 
   createEffect(() => {
-    console.log(i18n);
+    console.log(i18n());
+  })
+
+  createEffect(() => {
+    console.log(i18n().t('test'));
   })
 
   return (
@@ -35,9 +39,9 @@ export default function Home() {
       </media-player>
 
 
-      <button class="border" onClick={() => i18n.changeLang('en')}>EN</button>
-      <button class="border" onClick={() => i18n.changeLang('fr')}>fr</button>
-      {i18n.t('test')}
+      <button class="border" onClick={() => i18n().changeLang('en')}>EN</button>
+      <button class="border" onClick={() => i18n().changeLang('fr')}>fr</button>
+      {i18n().t('test')}
     </main>
   );
 }

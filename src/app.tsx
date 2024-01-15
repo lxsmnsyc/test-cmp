@@ -45,7 +45,7 @@ export default function Root() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <QueryClientProvider client={queryClient}> */}
 
-        <RosettyProvider languages={{fr: {dict: {test: 'toto'},locale: fr},en: {dict: {test: 'EN'},locale: fr}}} defaultLanguage={"fr"}>
+        <RosettyProvider languages={{fr: {dict: {test: 'toto FR'},locale: fr},en: {dict: {test: 'toto EN'},locale: fr}}} defaultLanguage={"fr"}>
             Under rosetty
             <Suspense>
               <EmbeddedApp />
