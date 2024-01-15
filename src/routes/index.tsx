@@ -35,9 +35,9 @@ export default function Home() {
       </media-player>
 
 
-      {/* <button class="border" onClick={() => i18n.changeLang('en')}>EN</button>
+      <button class="border" onClick={() => i18n.changeLang('en')}>EN</button>
       <button class="border" onClick={() => i18n.changeLang('fr')}>fr</button>
-      {i18n.t('test')} */}
+      {i18n.t('test')}
     </main>
   );
 }
